@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/louis/year3_game/lib/SFML/src/SFML
+# Install script for directory: C:/Users/louis/year3_gamePong/lib/SFML/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/louis/year3_game/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/louis/year3_gamePong/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/louis/year3_game/out/build/x64-Debug/lib/SFML/src/SFML/System/cmake_install.cmake")
-  include("C:/Users/louis/year3_game/out/build/x64-Debug/lib/SFML/src/SFML/Main/cmake_install.cmake")
-  include("C:/Users/louis/year3_game/out/build/x64-Debug/lib/SFML/src/SFML/Window/cmake_install.cmake")
-  include("C:/Users/louis/year3_game/out/build/x64-Debug/lib/SFML/src/SFML/Network/cmake_install.cmake")
-  include("C:/Users/louis/year3_game/out/build/x64-Debug/lib/SFML/src/SFML/Graphics/cmake_install.cmake")
-  include("C:/Users/louis/year3_game/out/build/x64-Debug/lib/SFML/src/SFML/Audio/cmake_install.cmake")
+  include("C:/Users/louis/year3_gamePong/out/build/x64-Debug/lib/SFML/src/SFML/System/cmake_install.cmake")
+  include("C:/Users/louis/year3_gamePong/out/build/x64-Debug/lib/SFML/src/SFML/Main/cmake_install.cmake")
+  include("C:/Users/louis/year3_gamePong/out/build/x64-Debug/lib/SFML/src/SFML/Window/cmake_install.cmake")
+  include("C:/Users/louis/year3_gamePong/out/build/x64-Debug/lib/SFML/src/SFML/Network/cmake_install.cmake")
+  include("C:/Users/louis/year3_gamePong/out/build/x64-Debug/lib/SFML/src/SFML/Graphics/cmake_install.cmake")
+  include("C:/Users/louis/year3_gamePong/out/build/x64-Debug/lib/SFML/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

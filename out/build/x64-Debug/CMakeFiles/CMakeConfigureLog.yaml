@@ -39,7 +39,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdC/CMakeCCompilerId.exe
+        C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Users\\louis\\year3_game\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\louis\\year3_gamePong\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -85,7 +85,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -97,7 +97,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Users\\louis\\year3_game\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\louis\\year3_gamePong\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -109,19 +109,19 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3f7y52"
-      binary: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3f7y52"
+      source: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-00rzrg"
+      binary: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-00rzrg"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3f7y52'
+        Change Dir: 'C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-00rzrg'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_05508
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_05508.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_05508.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_05508.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_05508.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_05508.exe /implib:cmTC_05508.lib /pdb:cmTC_05508.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_64035
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_64035.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_64035.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_64035.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_64035.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_64035.exe /implib:cmTC_64035.lib /pdb:cmTC_64035.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -161,8 +161,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o9qhlj"
-      binary: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o9qhlj"
+      source: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bmdsrf"
+      binary: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bmdsrf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -170,11 +170,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o9qhlj'
+        Change Dir: 'C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bmdsrf'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b12dd
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b12dd.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_b12dd.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b12dd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b12dd.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_b12dd.exe /implib:cmTC_b12dd.lib /pdb:cmTC_b12dd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1a630
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1a630.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_1a630.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1a630.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1a630.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_1a630.exe /implib:cmTC_1a630.lib /pdb:cmTC_1a630.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -215,23 +215,23 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jk4m9j"
-      binary: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jk4m9j"
+      source: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gp88xc"
+      binary: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gp88xc"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/louis/year3_game/lib/SFML/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/louis/year3_gamePong/lib/SFML/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jk4m9j'
+        Change Dir: 'C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gp88xc'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_900c8
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_900c8.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_900c8.dir\\ /FS -c C:\\Users\\louis\\year3_game\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jk4m9j\\CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_900c8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_900c8.dir\\CheckIncludeFile.c.obj  /out:cmTC_900c8.exe /implib:cmTC_900c8.lib /pdb:cmTC_900c8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_62ff6
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_62ff6.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_62ff6.dir\\ /FS -c C:\\Users\\louis\\year3_gamePong\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gp88xc\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_62ff6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_62ff6.dir\\CheckIncludeFile.c.obj  /out:cmTC_62ff6.exe /implib:cmTC_62ff6.lib /pdb:cmTC_62ff6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -244,23 +244,23 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i34ski"
-      binary: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i34ski"
+      source: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i7h09l"
+      binary: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i7h09l"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/louis/year3_game/lib/SFML/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/louis/year3_gamePong/lib/SFML/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i34ski'
+        Change Dir: 'C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i7h09l'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8fbf0
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8fbf0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8fbf0.dir\\ /FS -c C:\\Users\\louis\\year3_game\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-i34ski\\CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8fbf0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8fbf0.dir\\CheckIncludeFile.c.obj  /out:cmTC_8fbf0.exe /implib:cmTC_8fbf0.lib /pdb:cmTC_8fbf0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bed9a
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bed9a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_bed9a.dir\\ /FS -c C:\\Users\\louis\\year3_gamePong\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-i7h09l\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_bed9a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bed9a.dir\\CheckIncludeFile.c.obj  /out:cmTC_bed9a.exe /implib:cmTC_bed9a.lib /pdb:cmTC_bed9a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -273,23 +273,23 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-majp2d"
-      binary: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-majp2d"
+      source: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cnuxfj"
+      binary: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cnuxfj"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/louis/year3_game/lib/SFML/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/louis/year3_gamePong/lib/SFML/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-majp2d'
+        Change Dir: 'C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cnuxfj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3794e
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3794e.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_3794e.dir\\ /FS -c C:\\Users\\louis\\year3_game\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-majp2d\\CheckIncludeFile.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3794e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3794e.dir\\CheckIncludeFile.c.obj  /out:cmTC_3794e.exe /implib:cmTC_3794e.lib /pdb:cmTC_3794e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b0240
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b0240.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_b0240.dir\\ /FS -c C:\\Users\\louis\\year3_gamePong\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cnuxfj\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b0240.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b0240.dir\\CheckIncludeFile.c.obj  /out:cmTC_b0240.exe /implib:cmTC_b0240.lib /pdb:cmTC_b0240.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -302,23 +302,23 @@ events:
     checks:
       - "Check size of void*"
     directories:
-      source: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kgp26l"
-      binary: "C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kgp26l"
+      source: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2i9aph"
+      binary: "C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2i9aph"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/louis/year3_game/lib/SFML/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/louis/year3_gamePong/lib/SFML/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "HAVE_SIZEOF_VOID_PTR"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/louis/year3_game/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kgp26l'
+        Change Dir: 'C:/Users/louis/year3_gamePong/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2i9aph'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d02c0
-        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d02c0.dir\\SIZEOF_VOID_PTR.c.obj /FdCMakeFiles\\cmTC_d02c0.dir\\ /FS -c C:\\Users\\louis\\year3_game\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kgp26l\\SIZEOF_VOID_PTR.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d02c0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d02c0.dir\\SIZEOF_VOID_PTR.c.obj  /out:cmTC_d02c0.exe /implib:cmTC_d02c0.lib /pdb:cmTC_d02c0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a17c4
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a17c4.dir\\SIZEOF_VOID_PTR.c.obj /FdCMakeFiles\\cmTC_a17c4.dir\\ /FS -c C:\\Users\\louis\\year3_gamePong\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2i9aph\\SIZEOF_VOID_PTR.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a17c4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a17c4.dir\\SIZEOF_VOID_PTR.c.obj  /out:cmTC_a17c4.exe /implib:cmTC_a17c4.lib /pdb:cmTC_a17c4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
 ...

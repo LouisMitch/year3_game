@@ -99,11 +99,11 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/louis/year3_game/lib/SFML/include"
+					"path" : "C:/Users/louis/year3_gamePong/lib/SFML/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/louis/year3_game/lib/SFML/src"
+					"path" : "C:/Users/louis/year3_gamePong/lib/SFML/src"
 				}
 			],
 			"language" : "CXX",
@@ -137,7 +137,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Users/louis/year3_game/out/install/x64-Debug"
+			"path" : "C:/Users/louis/year3_gamePong/out/install/x64-Debug"
 		}
 	},
 	"name" : "sfml-main",

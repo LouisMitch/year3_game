@@ -169,7 +169,7 @@
 					[
 						0
 					],
-					"name" : "setup",
+					"name" : "pong",
 					"targetIndexes" : 
 					[
 						0
@@ -204,50 +204,50 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "lab_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab_1-Debug-5caa73d95cc1af573365.json",
-					"name" : "lab_1",
+					"id" : "pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pong-Debug-8eed635834b5161d8183.json",
+					"name" : "pong",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "sfml-audio::@2c88909a109778213ad3",
-					"jsonFile" : "target-sfml-audio-Debug-92bc4916a2107c18b2df.json",
+					"jsonFile" : "target-sfml-audio-Debug-7b15bdb1046b38021c28.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@05826a7f30b7c69d94d4",
-					"jsonFile" : "target-sfml-graphics-Debug-35624473023e2888a95a.json",
+					"jsonFile" : "target-sfml-graphics-Debug-8ecbda65f4adec739911.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-main::@4d6cc2d9f74f742f1a09",
-					"jsonFile" : "target-sfml-main-Debug-b72b0676ead6ab61340d.json",
+					"jsonFile" : "target-sfml-main-Debug-f7d96df5c2577ebeb041.json",
 					"name" : "sfml-main",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-network::@c3d7f79628bafd5c7994",
-					"jsonFile" : "target-sfml-network-Debug-bb15eef8cbc16959cffe.json",
+					"jsonFile" : "target-sfml-network-Debug-a54d981236e10a826402.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@a0857d3fa2d27435d485",
-					"jsonFile" : "target-sfml-system-Debug-55ed8465bafae49fece6.json",
+					"jsonFile" : "target-sfml-system-Debug-9081cec4683cf49a42a8.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-window::@662453be02e81ddd067b",
-					"jsonFile" : "target-sfml-window-Debug-72718feb1b4b9973fa3a.json",
+					"jsonFile" : "target-sfml-window-Debug-0f5976a2dacd88c07e34.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}
@@ -257,8 +257,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/louis/year3_game/out/build/x64-Debug",
-		"source" : "C:/Users/louis/year3_game"
+		"build" : "C:/Users/louis/year3_gamePong/out/build/x64-Debug",
+		"source" : "C:/Users/louis/year3_gamePong"
 	},
 	"version" : 
 	{
